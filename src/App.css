@@ -1,0 +1,43 @@
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url('../public/fonts/IRANSans.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'IRANSans' !important;
+}
+
+html,
+body {
+  scroll-behavior: 'smooth';
+  font-family: 'IRANSans';
+  background-color: #fff;
+}
+
+.App{
+  padding: 3rem 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.table-wrapper{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.inventory{
+  padding: 1rem 0;
+  color: #858484;
+  line-height: 32px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+}
+.inventory span{
+  color: #1677ff;
+  display: block;
+  font-size: 1.5rem;
+}
